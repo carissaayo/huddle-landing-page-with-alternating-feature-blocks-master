@@ -22,3 +22,18 @@ header button{
     height:25px;
     font-weight: 600;
 }
+#build-com{
+    padding:10px 20px;
+}
+#build-com p{
+    padding: 10px 15px
+}
+.button{
+    background-color: hsl(322, 100%, 66%);
+    border:1px solid hsl(322, 100%, 66%);
+    color:white;
+    width:75%;
+    height:40px;
+    border-radius:20px;
+    font-weight:600
+}
