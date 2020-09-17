@@ -1,0 +1,24 @@
+/* General Body styles */
+body{
+    font-size: 18px;
+    font-weight:400;
+    text-align: center;
+    background-color:hsl(193, 100%, 96%)
+}
+/* Header Styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+/* Header Button Styles */
+header button{
+    margin-right: 20px;
+    color:black;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 10px;
+    width:30%;
+    height:25px;
+    font-weight: 600;
+}
