@@ -7,6 +7,9 @@ body{
     background-color: white;
     margin:0;
     z-index: 0;
+    font-family: 'Poppins',
+    sans-serif;
+    line-height: 1.6;
 }
 /* Header Styles */
 header{
@@ -48,8 +51,11 @@ header,#build-com{
 #grow-tog{
     background-color: white;
     z-index: 7;
-    /* margin:100px 20px; */
     border-radius: 5px;
+}
+#your-users{
+    /* font-size: 1.2em; */
+    padding:0 5px;
 }
 .container{
     box-shadow: 2px 0px 20px 10px hsl(193, 100%, 96%);
@@ -59,13 +65,51 @@ header,#build-com{
      margin:100px 20px;
      font-size: 1.1rem;
 }
-#flowing-convo {
-    /* margin:100px 20px; */
-    width
+#signup{
+    position:relative;
+    top:130px;
+    background-color: hsl(193, 100%, 96%);
+    margin:0 auto;
+    border-radius:20px;
+    width:90%;
+    height:150px;
+    padding-top:50px
+    
 }
-#your-user{
+#signup h1{
+    font-size:1em;
+    margin-bottom:30px
+    /* text-align: left; */
 
 }
-#signup{
-    /* margin:40px 0 */
+
+footer{
+    padding-top:200px;
+    background-color: hsl(192, 100%, 9%);
+    text-align: left;
+    padding:200px 20px 0 20px ;
+    color:white
+}
+footer img{
+    /* background-color: hsl(193, 100%, 96%); */
+}
+footer ul{
+    list-style: none;
+    margin: 0 -35px;
+    line-height: 2;
+}
+.grid-con{
+    display:grid;
+    grid-template:1fr/40px 1fr;
+    grid-column-gap:5px;
+}
+#contact{
+    margin-bottom: 20px;
+}
+.grid-con img{
+    padding-top:14px
+}
+p#copyright{
+    font-size: 0.6em;
+    text-align:center
 }
