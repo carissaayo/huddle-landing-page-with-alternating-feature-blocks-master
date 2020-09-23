@@ -28,38 +28,48 @@
         <button type="submit"> Try It Free</button>
     </header>
     <section id='build-com'><!-- "build-com" stands for build community section  -->
-        <h1> Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        <div><!-- Serves as a container for desktop view-->
+            <h1> Build The Community Your Fans Will Love</h1>
+            <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
             Create connections with your users as you engage in genuine discussion.</p>
-        <button type="submit" class='button'>Get Started For Free</button>
-        <img src="../images/bg-hero-desktop.svg" width='200px'>
+            <button type="submit" class='button'>Get Started For Free</button>
+        </div>
+        <img src="../images/logo.svg" width='200px'>
     </section>
     <section id='grow-tog'>
         <!-- 'grow-tog' Stands for Grow together section-->
             <div class='container'>
-            <div><img src='../images/illustration-grow-together.svg' width='300px'></div>
-            <h1>Grow Together</h1>
-            <p> Generate meaningful discussions with your audience and build a strong, loyal community.
+            <div id='grow-tog-img'><img src='../images/illustration-grow-together.svg' width='300px'></div>
+            <div>
+                <h1>Grow Together</h1>
+                <p> Generate meaningful discussions with your audience and build a strong, loyal community.
                 Think of the insightful conversations you miss out on with a feedback form.</p>
-        </div>
+            </div>
+            </div>
     </section>
     <section id='flowing-convo'>
         <!-- 'flowing convo'  Stands for flowing conversations Section-->
-            <div class='container'>
-            <div><img src='../images/illustration-flowing-conversation.svg' width='300px'></div>
-            <h1>Flowing Conversations</h1>
-            <p>
+        <div class='container'>
+            <div id='flowing-convo'><img src='../images/illustration-flowing-conversation.svg' width='300px'></div>
+            <div>
+              <h1>Flowing Conversations</h1>
+                <p>
                 You wouldn't paginate a conversation in real life, so why do it online? Our threads
                 have just-in-time loading for a more natural flow.</p>
-         </div>
+            </div>
+        </div>
     </section>
     <section id='your-users'>
         <!-- 'your-users' Stands for Your Users Secion -->
         <div class='container'>
-            <img src='../images/illustration-your-users.svg' width='300px'>
-            <h1>Your Users</h1>
-            <p>It takes no time at all to integrate Huddle with your app's authentication solution.
-            This means, once signed in to your app, your users can start chatting immediately.</p>
+            <div id='your-users-img'>
+                <img src='../images/illustration-your-users.svg' width='400px'>
+            </div>
+            <div>
+                <h1>Your Users</h1>
+                <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+                This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
         </div>
     </section>
     <section id='signup'>
@@ -68,9 +78,10 @@
     </section>
     <footer>
         <div><img src='../images/logocopy.svg'></div>
-       <section id='contact'>
+        <div id='footer-con'>
+        <section id='contact'>
             <div class='grid-con'>
-                <div><img src='../images/icon-location.svg'></div>
+                <div id='location-img'><img src='../images/icon-location.svg'></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua</p>
             </div>
@@ -91,6 +102,7 @@
             <li>Blog</li>
             <li>Contact Us</li>
         </ul>
+        </div>
         <p id='copyright'>&copy; Copyright 2018 Huddle. All rights reserved.</p>
 
         <p class="attribution">

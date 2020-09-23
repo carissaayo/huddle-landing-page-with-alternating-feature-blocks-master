@@ -34,6 +34,7 @@ header,#build-com{
 }
 #build-com{
     padding:10px 20px;
+    height:300px;
 }
 #build-com p{
     padding: 10px 15px
@@ -90,9 +91,7 @@ footer{
     padding:200px 20px 0 20px ;
     color:white
 }
-footer img{
-    /* background-color: hsl(193, 100%, 96%); */
-}
+
 footer ul{
     list-style: none;
     margin: 0 -35px;
@@ -112,4 +111,110 @@ footer ul{
 p#copyright{
     font-size: 0.6em;
     text-align:center
+}
+@media screen and (min-width:1440px){
+    header{
+        padding:40px  50px
+    }
+    #build-com{
+        display:grid;
+        text-align: left;
+        grid-template:1fr/ 1fr 1fr;
+        padding:0 50px;
+        height:500px;
+        margin-bottom: 120px;
+    }
+    #build-com  h1{
+        font-size: 3em;
+    }
+    #build-com button{
+        width:30%
+    }
+    
+    .container{
+        box-shadow: 2px 0px -2px 1px hsl(192, 100%, 9%);
+        /* border: 1px solid hsl(192, 100%, 9%); */
+        display: grid;
+        gap:0 40px;
+        grid-template: 1fr/ 500px 500px;
+        grid-template-areas: 'text-1 image-1'
+                             'image-2 text-2'
+                             'text-3 image-3';
+        
+        padding-left:50px;
+        padding-right:50px;
+        text-align: left;
+        margin: 50px 150px;
+        align-content: center;
+        align-items:center;
+    }
+    
+    #grow-tog-img{
+        grid-area:image-1;
+        margin-left:100px;
+    }
+    #your-users-img+div{
+        grid-area:text-3;
+    
+    }
+    #your-users-img {
+        grid-area: image-3;
+     
+    }
+     #your-users .container > div{
+         margin-bottom:50px
+     }
+
+     #signup{
+         width:40%;
+        padding-top: 20px;
+        background-color: white;
+           box-shadow: 2px 0px 1px 1px hsl(192, 100%, 9%);
+         /* text-align:center ;*/
+     }
+     #signup h1{
+         font-size:1.4em
+     }
+     #signup button{
+        width:45%;
+        padding:0 
+     }
+     #contact >div>#location-img+p{
+         width: 350px;
+     }
+     #contact{
+         margin-right:100px
+     }
+     #footer-con{
+         display: flex;
+        }
+
+    #about{
+
+        display:grid;
+        grid-template:40px 40px 40px/1fr 1fr;
+        grid-template-areas:"a b"
+                    "c d"
+                    "e f";
+        grid-gap: 10px 100px;
+        padding-top: 30px
+    }
+    #about li:nth-child(2){
+        grid-area: c
+    }
+
+    #about li:nth-child(4) {
+        grid-area: b;
+        }
+    #about li:nth-child(3) {
+        grid-area: e
+    }
+    #about li{
+        margin:0;
+        padding:0
+          }
+
+    footer{
+              padding-left:100px;
+          }
 }
